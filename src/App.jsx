@@ -4,6 +4,7 @@ import Two from "./Exercisetwo.jsx";
 import Three from "./ExerciseThree.jsx";
 import Role from "./ExerciseFour.jsx";
 import Five from "./ExerciseFive.jsx";
+import Six from "./ExerciseSix.jsx";
 function App() {
   const userRole = "admin";
   return (
@@ -15,6 +16,7 @@ function App() {
       <Role userRole={userRole} />
 
       <Five />
+      <Six />
     </>
   );
 }
